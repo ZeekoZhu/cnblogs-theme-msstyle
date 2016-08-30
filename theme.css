@@ -1,3 +1,4 @@
+html, body, * {     font-family: "Microsoft YaHei"; }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -147,6 +148,7 @@ table {
     color: white;
     font-size: 0.7em!important;
     margin-left: calc(50% - 586px)!important;
+    font-family: "Microsoft YaHei";
   }
   /*  search  */
   #widget_my_zzk {
@@ -339,11 +341,7 @@ table {
     line-height: 24px;
     font-size: 14px;
   }
-  .cnblogs-markdown img{
-    width: 100%;
-    height: auto;
-    padding: 20px 0;
-  }
+  
   div.cnblogs-markdown hr {
     border-top: none;
     border-bottom: 1px solid #D2D2D2;
@@ -375,9 +373,14 @@ table {
     color: #e74c3c;
     border-radius: 0!important;
     background-color: white !important;
-    border: 1px solid e1e4e5;
+    border: 1px solid #e1e4e5;
   }
   
+  .cnblogs-markdown img{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
   .cnblogs-markdown pre code.hljs{
     background-color: red;
     font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace !important;
