@@ -339,7 +339,11 @@ table {
     line-height: 24px;
     font-size: 14px;
   }
-  
+  .cnblogs-markdown img{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
   div.cnblogs-markdown hr {
     border-top: none;
     border-bottom: 1px solid #D2D2D2;
